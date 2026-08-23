@@ -1,0 +1,6 @@
+name: 'Site-A Opportunity'
+type: module
+description: 'Site-A specific opportunity tracker.'
+package: 'Custom - Site A'
+core_version_requirement: ^10 || ^11
+version: '1.0.0'

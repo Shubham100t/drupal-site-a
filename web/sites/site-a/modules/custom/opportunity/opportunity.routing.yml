@@ -1,0 +1,7 @@
+opportunity.view:
+  path: '/site-a/opportunity'
+  defaults:
+    _controller: '\Drupal\opportunity\Controller\OpportunityController::view'
+    _title: 'Site-A Opportunity Pipeline'
+  requirements:
+    _access: 'TRUE'
