@@ -1,7 +1,7 @@
 <?php
 namespace Drupal\opportunity\Controller;
 use Drupal\Core\Controller\ControllerBase;
-
+// comment
 class OpportunityController extends ControllerBase {
   public function view() {
     return [
