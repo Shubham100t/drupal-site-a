@@ -1,0 +1,29 @@
+# Composer dependencies
+/vendor/
+
+# Drupal Core (installed by Composer)
+/web/core/
+
+# Contributed modules, themes, profiles, and libraries (installed by Composer)
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Site uploaded files, SQLite databases, and local configurations
+/web/sites/*/files/
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+*.sqlite
+*.sqlite3
+
+# Environment and IDE files
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
+
+# Explicitly ensure custom modules and submodule are tracked
+!/web/modules/custom
+!/web/sites/*/modules/custom
